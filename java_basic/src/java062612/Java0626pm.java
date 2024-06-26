@@ -19,7 +19,7 @@ public class Java0626pm {
 		money=scan.nextInt();
 		
 		float salary=(int)(money-(money*tax));
-		
+		 
 		
 		
 		
