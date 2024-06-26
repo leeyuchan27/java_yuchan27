@@ -61,19 +61,20 @@ public class Java0626am {
 	    
 //	    System.out.printf("%s ¸¶À»ÀÇ ³ªÀÌ°¡ %d»ìÀÎ Æø±ºÁöµµÀÚ %c","ÄÚµùºô",28,'¹Ú');
 	    
-	    int a=c¾ð¾î;
-	    int b=ÀÚ¹Ù;
-	    int c=°ÇÃàÇÐ°³·Ð;
 	    
-	    int ÃÑÁ¡=a+b+c;
 	    
-	    float Æò±Õ=ÃÑÁ¡/3;
+	    
+	   
+	    int a,b,c;
 	    System.out.print("c¾ð¾î:");
 	    a=scan.nextInt();
 	    System.out.print("ÀÚ¹Ù:");
 	    b=scan.nextInt();
 	    System.out.print("°ÇÃàÇÐ°³·Ð:");
 	    c=scan.nextInt();
+	    
+	    int ÃÑÁ¡=a+b+c;
+	    float Æò±Õ=ÃÑÁ¡/3;
 	    System.out.println("ÃÑÁ¡:"+ÃÑÁ¡+"Æò±Õ:"+Æò±Õ);
 	    
 	    
