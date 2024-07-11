@@ -4,14 +4,10 @@ public class Excetion {
 
 	public static void main(String[] args) {
 	
-		try {
-			if()
-			throw new NullPointerException("aa");
-			
-		}catch(Exception e) {
-			System.out.println("강제 오류 발생");
-		}
-
+		Member member=new Member("이순신",1999);
+		System.out.println(member.name+" "+member.birth);
+		member.setAge();
+		System.out.println(member.age);
 	}
 
 }
@@ -26,6 +22,11 @@ class Member{
 	}
 	
 	void setAge() {
+	try {
 		this.age=2024-birth;
+	}catch(Exception e) {
+		e.printStackTrace();
+		System.out.println(e.getMessage());
+	}
 	}
 }
