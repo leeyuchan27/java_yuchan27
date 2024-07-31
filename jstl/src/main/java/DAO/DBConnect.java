@@ -21,7 +21,7 @@ public class DBConnect {
 		String url="jdbc:mysql://localhost:3306/leeyuchan";
 		
 		try{
-			Class.forName("com.mysal.cj.jdbc.Driver");
+			Class.forName("com.mysql.cj.jdbc.Driver");
 			conn=DriverManager.getConnection(url,user,password);
 			
 		}catch(Exception e) {

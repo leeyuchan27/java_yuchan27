@@ -17,7 +17,8 @@ public class MemberDTO {
 	}
 	public MemberDTO(int id,String userId,String userPassword,
 			String userEmail,String userName) {
-		MemberDto(userId,userPassword,userEmail,userName)
+		this(userId,userPassword,userEmail,userName);
+		this.memberId=id;
 	}
 	
 	
